@@ -1,0 +1,56 @@
+*{
+    padding: 0;
+    margin: 0;
+    box-sizing: border-box;
+}
+
+.container{
+    display: flex;
+    flex-direction: column;
+    height: 700px;
+    width: 100vw;
+    background-color: #000;
+    position: relative;
+}
+
+.toast{
+    background-color: rgb(0, 129, 121);
+    color: white;
+    padding: 12px 15px;
+    position: absolute;
+    width: 400px;
+    left: 20px;
+    bottom: 100px;
+    border-radius: 5px;
+}
+.visibilityHidden{
+    visibility: hidden;
+}
+.headings{
+    display: flex;
+    position: relative;
+}
+
+
+.time{
+    position: absolute;
+    right: 20px;
+}
+
+.close{
+    position: absolute;
+    right: -10px;
+    top: -5px;
+    cursor: pointer;
+    font-size: 15px;
+}
+.close:hover{
+    background-color: rgba(0, 0, 0, 0.217);
+    color: wheat;
+    font-size: 18px;
+}
+
+.toastText{
+    margin: 10px 0px;
+    padding: 5px 2px;
+}
